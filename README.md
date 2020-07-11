@@ -7,6 +7,7 @@
 ## USAGE
 
 ```bash
+git clone https://github.com/Avimitin/EH_info.git
 # 需要 Python 3.6+ 环境
 # 安装依赖
 pip3 install -r requirements.txt
@@ -20,6 +21,6 @@ python3 main.py -u 'https://example.com'
 
 - [x] 爬取基本信息
 
-- [ ] 爬取封面页
+- [x] 爬取封面页
 
-- [ ] 过滤 TAG 信息
+- [x] 过滤 TAG 信息
