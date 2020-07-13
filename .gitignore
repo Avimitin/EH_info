@@ -1,3 +1,4 @@
 venv
 .vscode
 module/__pycache__
+resource
