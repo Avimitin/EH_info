@@ -43,6 +43,7 @@ def tags_filter(tags):
     :param tags: tags from response JSON
     '''
     new_tags = []
+    artist="Unknown Artist"
     for tag in tags:
         if re.match("artist:", tag):
             artist = tag.split(':')[1]
